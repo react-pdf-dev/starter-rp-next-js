@@ -52,9 +52,9 @@ This repository includes an example project to demonstrate React PDF in action.
 
 2. **Open in Browser**: Open your browser and navigate to `http://localhost:3000` (or the port specified in your terminal) to see the example project in action
 
-### Using the React PDF Component
+### Using React PDF in the App Router
 
-Once the example project is running, you can explore the source code to see how the React PDF component is integrated. Here is a brief overview:
+This example uses the Next.js App Router, which requires marking your PDF components as client components and disabling SSR because React PDF relies on browser APIs. Here is a brief overview:
 
 1.  **Import the component**: Import the desired React PDF component into your codes
 
